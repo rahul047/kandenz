@@ -2,13 +2,24 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5JCP8JQ');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5JCP8JQ');
+    </script>
+    <!-- End Google Tag Manager -->
     <link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
     <meta charset="utf-8" />
     <title>Home | Kadenz</title>
@@ -33,10 +44,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body id="top" class="">
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JCP8JQ"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JCP8JQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+        ! function(a, b, c, d, e) {
+            e = e || [];
+            var f, g = a.getElementsByTagName("head")[0];
+            if (!a.getElementById(c)) {
+                f = a.createElement(b), f.id = c, f.setAttribute("data-vrlps-ucid", d), f.setAttribute("data-vrlps-version", "2"), f.src = "https://app.viral-loops.com/popup_assets/js/vl_load.min.js", g.appendChild(f);
+                var h = document.createElement("link");
+                h.rel = "stylesheet", h.type = "text/css", h.href = "https://app.viral-loops.com/static/vl-loader.css", document.head.appendChild(h);
+                var i = document.createElement("div");
+                i.id = "vl-overlay", i.style.display = "none";
+                var j = document.createElement("div");
+                j.id = "vl-loader", i.appendChild(j), document.addEventListener("DOMContentLoaded", function(a) {
+                    document.body.appendChild(i);
+                    for (var b = document.getElementsByClassName("vrlps-trigger"), c = 0; c < b.length; c++) b[c].removeAttribute("href"), b[c].onclick = function() {
+                        document.getElementById("vl-overlay").style.display = "block"
+                    };
+                    for (var c = 0; c < e.length; c++) {
+                        if (window.InstapageUniqueVisit) {
+                            if (document.getElementById(e[c].replace(/^#/, ""))) var d = document.getElementById(e[c].replace(/^#/, "")).getElementsByTagName("div")[0].getElementsByTagName("a")[0].getElementsByTagName("div")[0]
+                        } else if (document.getElementById(e[c].replace(/^#/, ""))) var d = document.getElementById(e[c].replace(/^#/, ""));
+                        d && (d.removeAttribute("href"), d.className += " vl-ctaWithId", d.onclick = function() {
+                            document.getElementById("vl-overlay").style.display = "block"
+                        })
+                    }
+                    var f = document.querySelectorAll("[data-vl-widget='popupTrigger']");
+                    [].forEach.call(f, function(a) {
+                        var b = document.createElement("div");
+                        b.className = "vl-embedded-cta-loader", a.appendChild(b)
+                    })
+                })
+            }
+        }(document, "script", "vrlps-js", "o6gGWg5vQTtjzXlCXneTnjvPbJY");
+    </script>
+
 
     <header class="navigation">
         <div class="wrapper">
@@ -67,8 +113,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h1>Introducing Kadenz</h1>
                 <h4>Revoutionary wearable for smarter and better running. Say no to injuries.</h4>
                 <br/>
-                <a href="index.html" class="button button-primary">
-      Order Now
+                <a href="index.html" class="button button-primary vrlps-trigger">
+      Pre-Order Now
     </a>
             </div>
         </div>
@@ -130,9 +176,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h3>How will Kadenz wearables help improve this technique?</h3>
                     <p><b>Kadenz's latest haptic feedback technology uses advanced vibration patterns and waveforms</b> to convey information to a runner.</p>
 
-                      <p> With our little piece of technology, Kadenz will give <b>progressive and personalised</b> advice on your running technique and help you reach your ideal running form.</p>
+                    <p> With our little piece of technology, Kadenz will give <b>progressive and personalised</b> advice on your running technique and help you reach your ideal running form.</p>
 
-                      <p><b>STAY FIT. NO MORE INJURIES.</b></p>
+                    <p><b>STAY FIT. NO MORE INJURIES.</b></p>
 
 
 
